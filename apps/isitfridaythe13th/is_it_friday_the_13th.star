@@ -50,7 +50,7 @@ def main(config):
     day_of_week = time.now().format("Mon")
     is_friday_the_13th = FRIDAYTHE13TH_NO
 
-    if day == 13 && day_of_week == "Fri":
+    if day == 13 and day_of_week == "Fri":
         is_friday_the_13th = FRIDAYTHE13TH_YES
         
     print(is_friday_the_13th)
